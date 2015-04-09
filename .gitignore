@@ -1,0 +1,9 @@
+# Compiled/Test Output
+target
+**/target
+
+# Misc
+.classpath
+.project
+.settings
+.idea
