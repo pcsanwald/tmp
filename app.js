@@ -31,7 +31,6 @@ const app = express();
 const graphqlLogger = require('express-bunyan-logger')({
   name: 'graphql-logger',
   includesFn: (req, res) => {
-    console.log('asdf');
     const includes = {};
     if (req.body) includes.req_body = JSON.stringify(req.body);
     if (req.query) includes.req_query = JSON.stringify(req.query);
