@@ -1,9 +1,1 @@
-# Compiled/Test Output
-target
-**/target
-
-# Misc
-.classpath
-.project
-.settings
-.idea
+node_modules
